@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'S2 Task' });
+  res.render('index', { title: 'Sessional-2' });
 });
 router.get('/cart', function(req, res, next) {
   let cart = req.cookies.cart;
